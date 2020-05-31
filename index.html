@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<head>
+    <title>MyToDoList</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+</head>
+
+<body>
+
+    <div id = 'background'></div>
+
+    <header>
+        <h1>My ToDo List</h1>
+        <h3>Organize your life with this simple tool.</h3>
+    </header>
+
+    <div id = 'inputs'>
+        <div id = "task-input">
+            <label for='task'>Task</label>
+            <input id = 'the-task' class="u-full-width" type='text' placeholder="Grocery's" required>
+        </div>
+        <div id ="description-input">
+            <label for='task description (optional)'>Description (optional)</label>
+            <textarea id = 'the-description' class="u-full-width" placeholder="Tomatoes and fish"></textarea>
+        </div>
+        <div id = 'submit-button'>
+            <input class="button-primary" type="submit" value="Save">
+        </div> 
+    </div>
+
+    <div id='loading-gif'>
+        <img src='images/loading-ball.gif'>
+    </div>
+
+    <div id = 'my-tasks'>
+
+        <!-- <div class = 'listing-task' id = '0'>
+            <h4>Shopping  </h4>
+            <p>I need to buy some tomatoes and cheese</p>
+            <i class="fas fa-trash fa-lg"></i>
+        </div> -->
+
+    </div>
+    <script src="app.js"></script>
+    <script src="https://kit.fontawesome.com/c6959fdcca.js" crossorigin="anonymous"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js'></script>
+</body>

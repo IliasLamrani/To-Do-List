@@ -1,0 +1,78 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#inputs {
+    margin-top: 100px;
+    font-size: 30px;
+}
+
+#task-input, #description-input {
+    width: 50%;
+    margin: auto;
+    padding: 0px 0px 40px 0px;
+}
+
+#submit-button {
+    display: flex;
+    justify-content: center;
+}
+
+textarea, input {
+    font-size: 20px;
+}
+
+#loading-gif {
+    display: flex;
+    justify-content: center;
+}
+
+#my-tasks {
+    margin-top: 200px;
+
+}
+
+#my-tasks h1 {
+    margin-left: 100px;
+}
+
+.listing-task {
+    border: 1px solid lightgrey;
+    border-radius: 25px;
+    width: 50%;
+    padding: 10px 30px;
+    box-shadow: 5px 5px 20px grey;
+    margin: auto;
+    margin-top: 25px;
+    background-color: white;
+}
+
+.listing-task p{
+    color: grey;
+    font-size: 23px;
+}
+
+.listing-task h4{
+    font-weight: 800;
+}
+
+i {
+    color: #1EAEDB;
+}
+
+i:hover {
+    color: red;
+    cursor: pointer;
+}
